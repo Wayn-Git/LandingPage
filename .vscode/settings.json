@@ -4,12 +4,7 @@
         "**/.svn": true,
         "**/.hg": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true,
-        ".gitattributes": true,
-        ".vscode": true
+        "**/Thumbs.db": true
     },
-    "hide-files.files": [
-        ".gitattributes",
-        ".vscode"
-    ]
+    "hide-files.files": []
 }
