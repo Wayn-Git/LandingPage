@@ -78,6 +78,11 @@ export default function Faq() {
                 className="flex justify-between items-center p-5 cursor-pointer"
                 onClick={() => toggleAccordion(1)}
               >
+
+
+                {/* Hello world */}
+
+
                 <h3 className="text-sm font-medium">
                   What apps can we connect?
                 </h3>
