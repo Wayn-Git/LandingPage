@@ -30,25 +30,25 @@ export default function Header() {
 
             
             <nav className="hidden md:flex items-center space-x-8 justify-center ">
-              <a href="#" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-                Features
+              <a href="#features" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
+                How It Works
               </a>
-              <a href="#" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-                Pricing
+              <a href="#pricing" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
+                Plans
               </a>
-              <a href="#" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-                About
+              <a href="#feedback" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
+                Success Stories
               </a>
-              <a href="#" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-                Contact
+              <a href="#faq" className="text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
+                FAQ
               </a>
 
               <div className="flex items-center space-x-4 ml-8">
                 <button className="px-4 py-2 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-                  Login
+                  Sign In
                 </button>
                 <button className="px-4 py-2 text-sm font-medium bg-white/10 hover:bg-white/20 text-white rounded-full transition-all duration-200 backdrop-blur-sm">
-                  Sign Up
+                  Create Team
                 </button>
               </div>
 
@@ -102,26 +102,26 @@ export default function Header() {
           </div>
 
           <nav className="flex-1 p-6 space-y-6">
-            <a href="#" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
-              Features
+            <a href="#features" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
+              How It Works
             </a>
-            <a href="#" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
-              Pricing
+            <a href="#pricing" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
+              Plans
             </a>
-            <a href="#" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
-              About
+            <a href="#feedback" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
+              Success Stories
             </a>
-            <a href="#" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
-              Contact
+            <a href="#faq" className="block text-lg font-medium text-gray-300 hover:text-white transition-colors duration-200">
+              FAQ
             </a>
           </nav>
 
           <div className="p-6 border-t border-white/10 space-y-4">
             <button className="w-full px-4 py-3 text-sm font-medium text-gray-300 hover:text-white transition-colors duration-200">
-              Login
+              Sign In
             </button>
             <button className="w-full px-4 py-3 text-sm font-medium bg-white/10 hover:bg-white/20 text-white rounded-full transition-all duration-200 backdrop-blur-sm">
-              Sign Up
+              Create Team
             </button>
           </div>
         </div>

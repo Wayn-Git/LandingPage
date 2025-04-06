@@ -2,6 +2,11 @@
 
 /* Add this CSS to your global styles or inside a <style> tag in your component */
 
+
+html{
+  scroll-behavior: smooth;
+}
+
 .bubbles {
     position: absolute;
     top: 0;

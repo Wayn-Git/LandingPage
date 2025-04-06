@@ -38,13 +38,21 @@ export default function MainPage() {
 
         <HomePage />
 
-        <FeatureSection />
+        <div id="features">
+          <FeatureSection />
+        </div>
 
-        <PricePage />
+        <div id="pricing">
+          <PricePage />
+        </div>
 
-        <FeedBack />
+        <div id="feedback">
+          <FeedBack />
+        </div>
 
-        <FAQ />
+        <div id="faq">
+          <FAQ />
+        </div>
 
         <Footer />
 
