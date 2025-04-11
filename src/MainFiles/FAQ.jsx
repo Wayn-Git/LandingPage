@@ -1,16 +1,16 @@
 import React, { useState } from "react";
 
 export default function Faq() {
-  // State to track which accordion item is open
-  const [openIndex, setOpenIndex] = useState(0); // Set the second item open by default
 
-  // Function to toggle accordion items
+  const [openIndex, setOpenIndex] = useState(0); 
+
+  
   const toggleAccordion = (index) => {
     if (openIndex === index) {
-      // If clicking on already open item, close it
+      
       setOpenIndex(null);
     } else {
-      // Otherwise, open the clicked item
+      
       setOpenIndex(index);
     }
   };
